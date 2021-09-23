@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  max-width: 1440px;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+}
+.text-neutral--desaturated-blue {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.text-neutral--dark-blue {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+/************************/
+/* CARD */
+/************************/
+.container {
+  height: 60rem;
+  width: 40rem;
+  background-color: #fff;
+  overflow: hidden;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 30px 15px 0px hsl(225, 100%, 90%);
+}
+.hero-img {
+  width: 100%;
+}
+.text-part {
+  padding: 3.2rem 4.8rem 3.6rem 4.8rem;
+  display: flex;
+  gap: 2.4rem;
+  flex-direction: column;
+  align-items: center;
+}
+.description-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.plans-container {
+  width: 100%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.plans-container a {
+  margin-left: auto;
+  color: hsl(245, 75%, 52%);
+}
+.plans-price-container {
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.payment-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-payment {
+  width: 100%;
+  font-weight: 700;
+  padding: 1.4rem 3.2rem;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 20px 10px 0px hsl(225, 100%, 94%);
+  margin-bottom: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/************************/
+/* FOOTER */
+/************************/
+footer {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
